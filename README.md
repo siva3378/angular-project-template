@@ -1,25 +1,31 @@
 Angular Project template with Gulp & Karma-Jasmine configurations
-=================================================================
+==================================================
+This is ready made project or a project template, which contains proper folder structure, mostly used 
+ 
+- app file configuration
+- node-package.json,
+- bower json 
+- very useful gulp tasks
+- karma configuration with reporters 
 
-Demo project for AngularJS
-How to unit test AngularJS components with jasmine and karma.
-Increase productivity using gulp & bower
-
+This file also explains how to set-up environment to start work with this project template along with how to execute unit test runner with test-case & coverage reports
 
 Developer tools required
 ---------------------------------
-Following software needs to be installed for UI development environment.  
-•	Node.js & npm (Node package manager)
-•	Git
-•	Chrome browser
+Following software needs to be installed for UI development with this project template  
+
+- Node.js & npm (Node package manager)
+- Git
+- Chrome browser
 
 
 Step 1: Installing Node & Bower packages locally:
 -------------------------------------------------
-Once Node & npm is installed in your machine, you can install all other node packages with node console.
-1.	start > search and open "Node.js command prompt"
-2.	Change the current directory in your console to <project directory>\web\src\main\webapp\dev-files" by using "cd" command
-    Eg: > cd "C:\Users\PalaSK\Documents\Accurev Workspaces\cmpl_ormgl_dev_v2\web\src\main\webapp\dev-files"
+Once Node & npm is installed in your machine, you can install all node packages with node console.
+
+1. start > search and open "Node.js command prompt"
+2. Change the current directory in your console to <project directory>\web\src\main\webapp\dev" by using "cd" command
+    Eg: > cd "C:\Users\UserName\Documents\Workspaces\project_name\web\src\main\webapp\dev"
     
 3.	Execute following commands in "Node.js command prompt" to install node packages 
     npm install -g bower gulp rimraf 
