@@ -1,5 +1,5 @@
-UI Dev Environment setup for AngularJs Unit testing
-=====================================================
+Angular Project template with Gulp & Karma-Jasmine configurations
+=================================================================
 
 Demo project for AngularJS
 How to unit test AngularJS components with jasmine and karma.
@@ -17,18 +17,18 @@ Following software needs to be installed for UI development environment.
 Step 1: Installing Node & Bower packages locally:
 -------------------------------------------------
 Once Node & npm is installed in your machine, you can install all other node packages with node console.
-    1.	start > search and open "Node.js command prompt"
-    2.	Change the current directory in your console to <project directory>\web\src\main\webapp\dev-files" by using "cd" command
+1.	start > search and open "Node.js command prompt"
+2.	Change the current directory in your console to <project directory>\web\src\main\webapp\dev-files" by using "cd" command
     Eg: > cd "C:\Users\PalaSK\Documents\Accurev Workspaces\cmpl_ormgl_dev_v2\web\src\main\webapp\dev-files"
     
-    3.	Execute following commands in "Node.js command prompt" to install node packages 
-> npm install -g bower gulp rimraf 
-> npm install -g karma karma-cli karma-coverage karma-html-reporter karma-chrome-launcher
-> npm install
+3.	Execute following commands in "Node.js command prompt" to install node packages 
+    npm install -g bower gulp rimraf 
+    npm install -g karma karma-cli karma-coverage karma-html-reporter karma-chrome-launcher
+    npm install
 
-    4.	Execute following commands in "Node.js command prompt" to install bower packages
-> bower install -save //To install app libraries
-> bower install jasmine jasmine-expect jasmine-jquery -save-dev //To install app testing libraries
+4.	Execute following commands in "Node.js command prompt" to install bower packages
+    bower install -save //To install app libraries
+    bower install jasmine jasmine-expect jasmine-jquery -save-dev //To install app testing libraries
 
 Step 2: Browser set up for Karma runner:
 -----------------------------------------
